@@ -1,0 +1,305 @@
+[gd_scene load_steps=42 format=3 uid="uid://bcmgl36sltvei"]
+
+[ext_resource type="Texture2D" uid="uid://cgh8bnh1qs4f2" path="res://textures/dewi twitch/431.png" id="1_81wt4"]
+[ext_resource type="Texture2D" uid="uid://drwdn044j5jma" path="res://textures/dewi twitch/440.png" id="2_kcc3o"]
+[ext_resource type="Texture2D" uid="uid://coburaqjb4xai" path="res://textures/dewi twitch/441.png" id="3_6rcc6"]
+[ext_resource type="Texture2D" uid="uid://cbfyjpl7jyhdg" path="res://textures/dewi twitch/442.png" id="4_ah8jo"]
+[ext_resource type="Script" uid="uid://by8c3jfmyf1ww" path="res://scripts/dewi twitch.gd" id="4_pyl7j"]
+[ext_resource type="Texture2D" uid="uid://2hiwi1j4bo3h" path="res://textures/static/12.png" id="6_7af2g"]
+[ext_resource type="Shader" uid="uid://jfa0lasi0tx0" path="res://shaders/remove black.gdshader" id="6_blk4q"]
+[ext_resource type="Texture2D" uid="uid://c2obtnthi1vpf" path="res://textures/static/13.png" id="7_81wt4"]
+[ext_resource type="Texture2D" uid="uid://bxnbytpeksqgq" path="res://textures/static/14.png" id="8_kcc3o"]
+[ext_resource type="Texture2D" uid="uid://duxhkoxnskxuo" path="res://textures/static/15.png" id="9_6rcc6"]
+[ext_resource type="Texture2D" uid="uid://dv85ablf2anwr" path="res://textures/static/16.png" id="10_ah8jo"]
+[ext_resource type="Texture2D" uid="uid://cueyyb05qx4ek" path="res://textures/static/17.png" id="11_blk4q"]
+[ext_resource type="Texture2D" uid="uid://c5gicyf4ruqk2" path="res://textures/static/18.png" id="12_8magm"]
+[ext_resource type="Texture2D" uid="uid://uxw58uuuk5yv" path="res://textures/static/20.png" id="13_fgbvm"]
+[ext_resource type="Texture2D" uid="uid://c3jwrqslw352c" path="res://textures/static/8.png" id="15_t8o15"]
+[ext_resource type="Texture2D" uid="uid://ddkrofx2nbbsg" path="res://textures/static/10.png" id="16_opmo2"]
+[ext_resource type="Texture2D" uid="uid://b7jn4su10mdah" path="res://textures/static/21.png" id="17_owywo"]
+[ext_resource type="Texture2D" uid="uid://7moftbobw2vf" path="res://textures/static/22.png" id="18_a4fnx"]
+[ext_resource type="Texture2D" uid="uid://ylaojfx2une2" path="res://textures/static/430.png" id="19_75bkb"]
+[ext_resource type="Texture2D" uid="uid://d3r0jmntygjby" path="res://textures/static/434.png" id="20_cgg5c"]
+[ext_resource type="Texture2D" uid="uid://bqsdw1gbh0xd0" path="res://textures/static/435.png" id="21_k1qkb"]
+[ext_resource type="Texture2D" uid="uid://1slbaghn4ibl" path="res://textures/static/436.png" id="22_2as01"]
+[ext_resource type="Texture2D" uid="uid://cf37w2kvdsj0l" path="res://textures/static/437.png" id="23_iq6fq"]
+[ext_resource type="Texture2D" uid="uid://7g0oby4t6w17" path="res://textures/static/438.png" id="24_mg5ff"]
+[ext_resource type="Texture2D" uid="uid://b8p0g8bxio1hr" path="res://textures/static/439.png" id="25_52c44"]
+[ext_resource type="Script" uid="uid://d3jwyyjtxn4be" path="res://scripts/divided_static.gd" id="26_opmo2"]
+[ext_resource type="FontFile" uid="uid://cxg6dow1qehb7" path="res://fonts/CONSOLA.TTF" id="27_owywo"]
+[ext_resource type="Script" uid="uid://b5ha1phvx0p2l" path="res://scripts/menu button.gd" id="28_a4fnx"]
+[ext_resource type="AudioStream" uid="uid://c1ka1aocscdys" path="res://audio/darkness music.wav" id="29_cgg5c"]
+[ext_resource type="AudioStream" uid="uid://oi4glae7rpb7" path="res://audio/blip3.wav" id="29_k1qkb"]
+[ext_resource type="AudioStream" uid="uid://1xtbyym36vch" path="res://audio/static.wav" id="30_k1qkb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4rr2b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_81wt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kcc3o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6rcc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ah8jo")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8magm"]
+shader = ExtResource("6_blk4q")
+shader_parameter/threshold = 0.3
+shader_parameter/alpha = 0.4
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vjr5h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_7af2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_81wt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_kcc3o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6rcc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ah8jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_blk4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_8magm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_fgbvm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 60.0
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_pqt7r"]
+shader = ExtResource("6_blk4q")
+shader_parameter/threshold = 0.6
+shader_parameter/alpha = 0.2
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pv6bm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_t8o15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_opmo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_owywo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_a4fnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_75bkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_cgg5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_k1qkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2as01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_iq6fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_mg5ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_52c44")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="Gradient" id="Gradient_opmo2"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_owywo"]
+gradient = SubResource("Gradient_opmo2")
+
+[sub_resource type="Animation" id="Animation_owywo"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(575.99994, -38)]
+}
+
+[sub_resource type="Animation" id="Animation_opmo2"]
+resource_name = "scan"
+length = 20.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 20),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(575.99994, -38), Vector2(552, 696)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_owywo"]
+_data = {
+&"RESET": SubResource("Animation_owywo"),
+&"scan": SubResource("Animation_opmo2")
+}
+
+[node name="title" type="Node2D"]
+
+[node name="background" type="CanvasLayer" parent="."]
+layer = -128
+
+[node name="ColorRect" type="ColorRect" parent="background"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="dewi" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -9.536743e-07)
+scale = Vector2(0.90000004, 0.88888896)
+sprite_frames = SubResource("SpriteFrames_4rr2b")
+frame_progress = 0.7550709
+centered = false
+script = ExtResource("4_pyl7j")
+
+[node name="rest" type="Timer" parent="dewi"]
+
+[node name="twitch" type="Timer" parent="dewi"]
+
+[node name="fade" type="Timer" parent="dewi"]
+wait_time = 0.3
+autostart = true
+
+[node name="static" type="AnimatedSprite2D" parent="."]
+material = SubResource("ShaderMaterial_8magm")
+position = Vector2(0.00012207031, 1.5258789e-05)
+scale = Vector2(0.8999999, 0.88888884)
+sprite_frames = SubResource("SpriteFrames_vjr5h")
+autoplay = "default"
+frame = 5
+frame_progress = 0.45726654
+centered = false
+
+[node name="divided static" type="AnimatedSprite2D" parent="."]
+visible = false
+material = SubResource("ShaderMaterial_pqt7r")
+scale = Vector2(0.8999999, 0.8888889)
+sprite_frames = SubResource("SpriteFrames_pv6bm")
+autoplay = "default"
+centered = false
+script = ExtResource("26_opmo2")
+
+[node name="rest" type="Timer" parent="divided static"]
+
+[node name="twitch" type="Timer" parent="divided static"]
+
+[node name="scan line" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.11764706)
+position = Vector2(575.99994, -38)
+scale = Vector2(19.999998, 0.547)
+texture = SubResource("GradientTexture2D_owywo")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="scan line"]
+libraries = {
+&"": SubResource("AnimationLibrary_owywo")
+}
+autoplay = "scan"
+
+[node name="GUI" type="CanvasLayer" parent="."]
+
+[node name="Title" type="Label" parent="GUI"]
+texture_filter = 1
+offset_left = 160.0
+offset_top = 64.0
+offset_right = 352.0
+offset_bottom = 301.0
+theme_override_fonts/font = ExtResource("27_owywo")
+theme_override_font_sizes/font_size = 50
+text = "Five 
+Nights 
+at 
+Dewi's "
+
+[node name="new game" type="Label" parent="GUI"]
+texture_filter = 1
+offset_left = 160.0
+offset_top = 352.0
+offset_right = 379.0
+offset_bottom = 403.0
+mouse_filter = 0
+theme_override_fonts/font = ExtResource("27_owywo")
+theme_override_font_sizes/font_size = 50
+text = "New Game"
+script = ExtResource("28_a4fnx")
+
+[node name="arrow" type="Label" parent="GUI"]
+texture_filter = 1
+offset_left = 88.0
+offset_top = 352.0
+offset_right = 144.0
+offset_bottom = 403.0
+theme_override_fonts/font = ExtResource("27_owywo")
+theme_override_font_sizes/font_size = 50
+text = ">>"
+
+[node name="continue" type="Label" parent="GUI"]
+texture_filter = 1
+offset_left = 161.0
+offset_top = 431.0
+offset_right = 380.0
+offset_bottom = 482.0
+mouse_filter = 0
+theme_override_fonts/font = ExtResource("27_owywo")
+theme_override_font_sizes/font_size = 50
+text = "Continue"
+script = ExtResource("28_a4fnx")
+
+[node name="select" type="AudioStreamPlayer" parent="GUI"]
+stream = ExtResource("29_k1qkb")
+
+[node name="music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("29_cgg5c")
+autoplay = true
+
+[node name="static sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("30_k1qkb")
+autoplay = true
